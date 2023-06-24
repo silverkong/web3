@@ -6,3 +6,9 @@
 - FAYCSale은 주석과 컨트랙트가 일부 다를 수 있습니다.
 - mintRole, WLmintRole을 분리해 화이트 리스트 일 경우 좀더 저렴한 가격으로 구입이 가능하게 해봤습니다. onlyCreator() 라는 모디파이어를 사용해 나중에 민팅이 끝나고 수익 분쟁을 없앴습니다.
 - 이외에도 많은 기능이 탑재되어있습니다.
+
+
+# NFT_FixedPrice_Marketplace
+
+- buyListedNft, canceledNFTSale
+    - 해당 함수에서 `payable({change this line}).transfer(listingFee);` {change this line} 부분에 수수료를 받을 주소를 넣어주세요.
